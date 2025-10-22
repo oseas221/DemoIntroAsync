@@ -23,7 +23,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(367, 220);
+            button1.Location = new Point(380, 276);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 0;
@@ -34,10 +34,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(327, 58);
+            pictureBox1.Location = new Point(298, 40);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(159, 122);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.Size = new Size(220, 198);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             pictureBox1.Visible = false;

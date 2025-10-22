@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoIntroAsync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a878fe9266008c2d50e15e3133e198ba910dd02")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoIntroAsync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoIntroAsync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

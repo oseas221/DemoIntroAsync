@@ -157,29 +157,5 @@ namespace DemoIntroAsync
             BorrarArchivos(destinoBaseSecuencial);
             BorrarArchivos(destinoBaseParalelo);
         }
-
-        private async Task<string> ProcesamientoLargo()
-        {
-            await Task.Delay(3000);
-            return "Dayanna";
-        }
-
-        private async Task RealizarProcesamientoLargoA()
-        {
-            await Task.Delay(1000);
-            Console.WriteLine("Procesos A Finalizado");
-        }
-
-        private async Task RealizarProcesamientoLargoB()
-        {
-            await Task.Delay(1000);
-            Console.WriteLine("Procesos B Finalizado");
-        }
-
-        private async Task RealizarProcesamientoLargoC()
-        {
-            await Task.Delay(1000);
-            Console.WriteLine("Procesos C Finalizado");
-        }
     }
 }
